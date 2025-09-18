@@ -1,0 +1,16 @@
+{
+  "name": "detect-fakers-on-x",
+  "version": "1.0.0",
+  "description": "Tool to tag fake X posts imitating @michellexotter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "create-tags": "node createTags.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "oauth": "^0.10.0"
+  },
+  "author": "Folkert Meeuw",
+  "license": "ISC"
+}
